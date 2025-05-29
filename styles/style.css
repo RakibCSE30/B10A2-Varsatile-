@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* shared styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 30px 120px;
+    /* width: calc(100% - 10px)/2; */
+    background-image: linear-gradient(#111111);
+
+}
+
+.color {
+    background-color: #E6533C;
+
+}
+
+.opacity {
+    color: #FFFFFF80;
+}
+.title1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+
+
+
+/* nav bar styles */
+.navigation-title,
+.footer-title {
+    color: #E6533C;
+    /* background-color: red; */
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    border: 2px solid rgb(53, 50, 50);
+    border-radius: 39px;
+    height: 45px;
+}
+
+.home {
+    background-color: #E6533C;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 18px;
+    border: none;
+
+
+}
+
+.same {
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+}
+
+ul>li {
+    list-style-type: none;
+    margin-right: 47px;
+    /* border: 1px solid red; */
+
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-items {
+    margin-left: 10px;
+}
+
+
+/* main styles */
+/* Our team section styles */
+.our-team-container{
+    text-align: center;
+     
+}
+.team-des{
+    margin-top: 14px;
+}
+.team-img{
+    position: relative;
+   
+
+}
+.team-img img{
+     border-radius: 18px;
+     width: 324px;
+
+}
+.team-img p{
+    position: absolute;
+    bottom: 30px;
+    
+}
+.team-img{
+    display:grid ;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+
+
+/* footer section styles */
+footer {
+    background: #171717;
+    border: 1px solid;
+    margin-top: 200px;
+    padding-top: 60px;
+    padding-bottom: 35px;
+    
+}
+
+.footer-title {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.footer-des {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.getstart-title {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.getstart-items {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.getstart-items li {
+    margin-top: 20px;
+}
+
+.footer-frame {
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-getstart-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+
+.horizontal {
+    color: #FFFFFF;
+    margin-top: 80px;
+    opacity: 0.1;
+}
+
+.bottom-footer {
+    margin-top: 35px;
+    text-align: center;
+}
