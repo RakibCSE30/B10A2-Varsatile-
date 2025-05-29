@@ -9,9 +9,13 @@
 }
 
 body {
-    margin: 30px 120px;
+   
     /* width: calc(100% - 10px)/2; */
     background-image: linear-gradient(#111111);
+
+}
+nav,main{
+     margin: 30px 120px;
 
 }
 
@@ -129,6 +133,204 @@ ul>li>a {
      object-fit: cover;
 }
 
+/* Ours habit section */
+.our-habit-section{
+    margin-bottom: 100px;
+}
+.habit-title{
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 60px;
+    
+}
+.habit-title>p{
+    font-size: 0.8rem;
+}
+.card-title{
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.card img{
+    border-radius: 50%;
+}
+.habit-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+.card> p{
+    font-size: 0.8rem;
+    margin-top: 13px;
+}
+.card> h4{
+    margin-top: 25px;
+}
+
+/*Training and exercise section styles  */
+.training-title{
+    line-height: 1.5;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.training-img{
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: 0.4fr auto 0.5fr;
+    /* gap: 20px; */
+}
+
+.img-parent {
+  position: relative;
+  width: 100%;
+  height: 12rem;
+  overflow: hidden;
+  background-color: #000; /* Optional: background behind the image */
+  
+  
+}
+
+.exercise-img img {
+ width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  display: block;
+}
+
+.img-child1 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #000000;
+  /* background: rgba(0, 0, 0, 0.5); Optional: for better text visibility */
+  padding: 5px 10px;
+  border-radius: 8px;
+  z-index: 1;
+}
+.img-child2{
+    position: absolute;
+    top: 20px;
+  left: 20px;
+  color: #FFFFFF;
+  /* background: rgba(0, 0, 0, 0.5); Optional: for better text visibility */
+  padding: 5px 10px;
+  
+  z-index: 1;
+    
+    
+}
+.img-child3{
+    position: absolute;
+    right: 20px;
+  bottom: 20px;
+  color: #FFFFFF;
+  /* background: rgba(0, 0, 0, 0.5); Optional: for better text visibility */
+  padding: 5px 10px;
+   
+  z-index: 1;
+    
+
+}
+.img-child4{
+     position: absolute;
+    top: 20px;
+  left: 20px;
+  color: #e6d5d5;
+  /* background: rgba(0, 0, 0, 0.5); Optional: for better text visibility */
+  padding: 5px 10px;
+  
+  z-index: 1;
+
+}
+.img-child5{
+    position: absolute;
+    right: 20px;
+  bottom: 20px;
+  color: #FFFFFF;
+  /* background: rgba(0, 0, 0, 0.5); Optional: for better text visibility */
+  padding: 5px 10px;
+   
+  z-index: 1;
+
+}
+
+.img-child6{
+     position: absolute;
+    right: 20px;
+  bottom: 20px;
+  color: #FFFFFF;
+  /* background: rgba(0, 0, 0, 0.5); Optional: for better text visibility */
+  padding: 5px 10px;
+   
+  z-index: 1;
+}
+
+
+ 
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #06FFD280;  
+   
+}
+.overlay2{
+    position: absolute;
+    background-color: #FF0000;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+
+}
+.overlay3{
+    position: absolute;
+    background-color: #00000080;
+     
+    width: 100%;
+    height: 100%;
+    top: 0;
+  left: 0;
+
+}
+.overlay4{
+    position: absolute;
+    background-color: #00000070;
+     
+    width: 100%;
+    height: 100%;
+    top: 0;
+  left: 0;
+
+}
+.overlay5{
+    position: absolute;
+    background-color: #42FF00;
+    opacity: 0.3;
+     
+    width: 100%;
+    height: 100%;
+    top: 0;
+  left: 0;
+
+}
+.overlay6{
+    position: absolute;
+    background-color: #0047FF;
+    opacity: 0.3;
+     
+    width: 100%;
+    height: 100%;
+    top: 0;
+  left: 0;
+
+}
+
+
 
 
 
@@ -186,15 +388,24 @@ ul>li>a {
   font-weight: 500;
   margin: 0;
 }
+/* BMI styles section */
 
+.bmi-title{
+    margin: 100px 200px ;
+     
+}
+.bmi-title >p{
+    margin-top: 14px;
+}
 
 /* footer section styles */
 footer {
-    background: #171717;
+    background: #2c2a2a;
     border: 1px solid;
     margin-top: 100px;
     padding-top: 60px;
     padding-bottom: 35px;
+    padding: 30px 120px;
     
 }
 
